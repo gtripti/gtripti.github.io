@@ -1,32 +1,32 @@
 header{
     height: 100vh;
-    padding-top: 3rem;
+    padding-top: 4rem;
     overflow: hidden;
-
 }
 
 .header__container{
     text-align: center;
-    height: 100%;
+    /* height: 100%; */
     position: relative;
+    margin-bottom: 0px;
 }
 
 .buttonAction{
-    margin-top: 1rem;
+    margin-top: 0.75rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
 }
 
 .header__container .me{
-    width: 20rem;
-    height: 35rem;
+    width: 15rem;
+    height: 25rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 1rem;
     overflow: hidden;
-    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    padding: 0.75rem 1rem 1rem 1rem;
     /* border-radius: 12rem 12rem 0 0; */
     /* background: linear-gradient(var(--color-primary), transparent); */
 }

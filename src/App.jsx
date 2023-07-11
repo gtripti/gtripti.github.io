@@ -13,8 +13,9 @@ const App = () => {
     return (
     // <div>App</div>
     <>
-        <Header/>
+        
         <Nav/>
+        <Header/>
         <About/>
         <Experience/>
         <Education/>
