@@ -1,0 +1,49 @@
+header{
+    height: 100vh;
+    padding-top: 3rem;
+    overflow: hidden;
+
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.buttonAction{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.header__container .me{
+    width: 20rem;
+    height: 35rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1rem;
+    overflow: hidden;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    /* border-radius: 12rem 12rem 0 0; */
+    /* background: linear-gradient(var(--color-primary), transparent); */
+}
+
+/* Media queries medium devices */
+/* For tablets */
+@media screen and (max-width: 1024px){
+    header{
+        height: 68vh;
+
+    }
+
+  }
+  
+  /* For mobiles */
+  @media screen and (max-width: 600px){
+    .header{
+      height: 100vh;
+    }
+  }
