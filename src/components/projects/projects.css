@@ -1,0 +1,21 @@
+.projects_box{
+    border-radius: 0.4rem;
+    /* cursor: pointer; */
+    border: 2px solid var(--color-primary);
+    padding: 1rem 2rem;
+    margin: 2rem;
+}
+
+span{
+    float: right;
+    color: black;
+    font-size: 13.28px;
+}
+
+ul{
+    padding-left: 2rem;
+}
+
+li{
+    list-style: circle;
+}

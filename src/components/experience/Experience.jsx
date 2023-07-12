@@ -10,7 +10,7 @@ const Experience = () => {
                     <h4>Software Engineer II</h4>
                     <h5>Walmart Global Tech,India <span>August 2020 - August 2022</span></h5>
                     <div className="experience_content">
-                        <ul>
+                        <ul className="list">
                             <li>Collaborated with 3 teams to onboard application by using Apache Kafka, increasing market reach by 30%</li>
                             <li>Migrated platform from Azure to Walmart Cloud-Native Platform(using Kubernetes and Docker) to reduce cost by 40%</li>
                             <li>Designed real-time email notifications for clients using Kafka and Microservice, reduced response time by 60%</li>
