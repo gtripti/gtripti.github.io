@@ -1,0 +1,21 @@
+/* .experience_container{
+} */
+
+.experience_box{
+    border-radius: 0.4rem;
+    /* cursor: pointer; */
+    border: 2px solid var(--color-primary);
+    padding: 1rem 2rem;
+}
+
+span{
+    float: right;
+}
+
+ul{
+    padding-left: 2rem;
+}
+
+li{
+    list-style: circle;
+}

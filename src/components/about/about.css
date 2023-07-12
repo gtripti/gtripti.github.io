@@ -1,0 +1,30 @@
+.about__container{
+    /* height: 100%; */
+    position: relative;
+    /* margin-bottom: 0px; */
+}
+
+h4{
+    color: var(--color-primary);
+}
+
+ul{
+    margin-bottom: 2rem;
+}
+
+/* Media queries medium devices */
+/* For tablets */
+/* @media screen and (max-width: 1024px){
+    .about__container{
+        height: 68vh;
+
+    }
+
+  } */
+  
+  /* For mobiles */
+  /* @media screen and (max-width: 600px){
+    .about__container{
+      height: 100vh;
+    }
+  } */
