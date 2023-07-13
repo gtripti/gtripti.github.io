@@ -22,7 +22,6 @@ const App = () => {
         <Projects/>
         <Certificates/>
         <Contact/>
-        <Footer/>
     </>
     )
 }

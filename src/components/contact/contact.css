@@ -1,0 +1,19 @@
+.contact__options{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+
+
+.contact_option{
+    border-radius: 0.4rem;
+    /* cursor: pointer; */
+    border: 2px solid var(--color-primary);
+    padding: 1rem 2rem;
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.h4{
+    color: white;
+}
